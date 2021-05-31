@@ -1,36 +1,3 @@
-/*------------------------------------------------------------------
-[Master Stylesheet]
--------------------------------------------------------------------
-Theme Name:     Shade - Landing Page Template
-Theme URL:      https://05-temp-whiter.netlify.app/
-Author:         grayic
-Version:        1.0
-Last change:    25/04/2021
-Description:    A default stylesheet for Appex - Landing HTML5 Template.
-Primary use:    Business, responsive, bootstrap 5, html5, clean, modern, creative, landing page, app  landing etc.
-Support:         https://finestdevs.com/product-support/
--------------------------------------------------------------------*/
-
-
-/*********** CSS TABLE OF CONTENTS *******************
-
-|--- 01.Component -> { Header }
-|--- 02.Component -> { Menu }
-|--- 03.Component -> { Button }
-|--- 04.Component -> { Form }
-|--- 05.Component -> { Cards }
-|--- 06.Component -> { Section Heading }
-
-
-
-|--- THEME CUSTOM STYLES
-
-|--- 01.sections -> { Landing-11 }
-
-
-******************************************************/
-
-
 /*=== Media Query ===*/
 
 body[data-theme='dark'],
@@ -252,37 +219,6 @@ body[data-theme='light'] .dark-mode-texts .light-shape.default-shape,
 .border-default-color-2 {
     border-color: var(--border-color-2) !important;
 }
-
-
-/*Preloader css*/
-
-div#loading {
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    z-index: 9999999;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-div#loading img {
-    z-index: 9999;
-}
-
-.preloader {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
-    background-color: #ffffff !important;
-}
-
-.preloader img {
-    width: 200px;
-}
-
 
 /*Header Css StaRT*/
 
