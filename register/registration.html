@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="shortcut icon" href="../image/favicon.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="../css/reg-form.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="row">
+        <section class="section">
+            <header>
+                <h3>Register</h3>
+                <h4>Please fill your information below</h4>
+            </header>
+            <main>
+                <form>
+                    <div class="form-item box-item">
+                        <label for="">Name of the Start-up  </label>
+                        <input type="text" name="name" placeholder="Name (Including Tagline)" autocomplete="off" data-required>
+                        <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
+                    </div>
+
+                    <div class="form-item box-item">
+                        <label for="">About</label>
+                        <input type="text" name="name" placeholder="(Main idea and future plans of Start-up)" autocomplete="off" data-required>
+                        <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
+                    </div>
+
+                    <div class="form-item box-item">
+                        <label for="">Targeted Customers/Market</label>
+                        <input type="text" name="name" placeholder="(The field in which the Start-up is working)" autocomplete="off" data-required>
+                        <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
+                    </div>
+
+                    <div class="form-item box-item">
+                        <label for="">Net worth of the Start-up</label>
+                        <input type="text" name="name" placeholder="(Approx. Market value)" autocomplete="off" data-required>
+                        <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
+                    </div>
+
+                    <div class="form-item box-item">
+                        <label for="">Present Condition</label>
+                        <input type="text" name="name" placeholder="(Where the Start-up stands in the present market)" autocomplete="off" data-required>
+                        <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
+                    </div>
+
+                    <div class="form-item box-item">
+                        <label for="">Team</label>
+                        <input type="text" name="name" placeholder="(Name of the members with their designation)" autocomplete="off" data-required>
+                        <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
+                    </div>
+
+
+
+                    <div class="form-item box-item radio-item">
+                        <div class="radio-label">
+                            <label class="label">From where you got to know about Sarathii?</label>
+
+                        </div>
+                        <div class="form-item-triple">
+
+                            <div class="form-item  ">
+                                <input id="Friends" class="first-radio" type="radio" name="reference" value="friends" data-once>
+                                <label for="Friends">Friends</label>
+                            </div>
+                            <div class="form-item">
+                                <input id="College" type="radio" name="reference" value="college" data-once>
+                                <label for="College">College</label>
+                            </div>
+                            <div class="form-item ">
+                                <input id="Advertisements" type="radio" name="reference" value="advertisements" data-once>
+                                <label for="Advertisements">Advertisements</label>
+                            </div>
+                            <div class="form-item ">
+                                <input id="Other" type="radio" name="reference" value="other" data-once>
+                                <label for="Other">Other</label>
+                            </div>
+                        </div>
+                        <small class="errorOnce"><i class="fa fa-asterisk" aria-hidden="true"></i> choose at least one</small>
+                    </div>
+
+                    <div class="form-item box-item">
+                        <label for="">Why should we help you?</label>
+                        <input type="text" name="reason" placeholder="(Your plus points: something you've special)" autocomplete="off" data-required>
+                        <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
+                    </div>
+
+                    <div class="form-item box-item">
+                        <label for="">Your recent customers</label>
+                        <input type="text" name="name" placeholder="(Customer's Name and contact details)" autocomplete="off" data-required>
+                        <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
+                    </div>
+
+
+
+
+
+
+
+                    <div class="form-item box-item">
+                        <input type="text" name="address" placeholder="Address" data-required>
+                        <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
+                    </div>
+                    <div class="form-item-double box-item">
+                        <div class="form-item ">
+                            <input type="text" name="strNumber" placeholder="Str Number" data-required data-number>
+                            <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
+                            <small class="errorNum"><i class="fa fa-asterisk" aria-hidden="true"></i> must be a number</small>
+                        </div>
+                        <div class="form-item">
+                            <input type="text" name="zCode" placeholder="Zip Code" data-required data-number>
+                            <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
+                            <small class="errorNum"><i class="fa fa-asterisk" aria-hidden="true"></i> must be a number</small>
+                        </div>
+                    </div>
+
+
+                    <div class="form-item box-item radio-item">
+                        <div class="radio-label">
+                            <label class="label">Services:</label>
+
+                        </div>
+                        <div class="form-item-triple">
+
+                            <div class="form-item radio ">
+                                <input id="incubation" class="first-radio" type="radio" name="service" value="friends" data-once>
+                                <label for="Friends">Incubation Plan</label>
+                            </div>
+                            <div class="form-item radio">
+                                <input id="client" type="radio" name="service" value="college" data-once>
+                                <label for="College">Client Services</label>
+                            </div>
+
+                            <div class="form-item radio">
+                                <input id="Other-service" type="radio" name="service" value="other" data-once>
+                                <label for="Other">Other Services</label>
+                            </div>
+                        </div>
+                        <small class="errorOnce"><i class="fa fa-asterisk" aria-hidden="true"></i> choose at least one</small>
+                    </div>
+
+
+                    <div class="form-item box-details">
+                        <label for="" id="contact-label">Contact Details: </label>
+                        <input type="text" class="name-input" name="name" placeholder="Name" autocomplete="off" data-required>
+                        <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
+                    </div>
+
+
+                    <div class="form-item box-details">
+                        <input type="text" name="phone" placeholder="Phone Number" data-required data-number data-count="10">
+                        <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
+                        <small class="errorNum"><i class="fa fa-asterisk" aria-hidden="true"></i> must be a number</small>
+                        <small class="errorChar"><i class="fa fa-asterisk" aria-hidden="true"></i> must be 10 digits</small>
+                    </div>
+                    <div class="form-item box-details " id="email">
+                        <input type="email" name="email" placeholder="Email address" data-email data-required>
+                        <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
+                        <small class="errorEmail"><i class="fa fa-asterisk" aria-hidden="true"></i> email is not valid</small>
+                    </div>
+
+
+                    <div class="form-item box-item">
+                        <label for="">Any Other Relevant Details</label>
+                        <textarea type="text" placeholder="(Something we need to know about you)" class="form_field textarea"></textarea>
+                        <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
+                    </div>
+
+
+
+
+                    <div class="form-item register-button">
+                        <span id="submit" class="submit">Submit</span>
+                    </div>
+                </form>
+            </main>
+            <footer>
+                <!--  <p>Already have an account? <a href="#">Login here</a></p>-->
+            </footer>
+            <i class="wave"></i>
+        </section>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="js/reg-form.js"></script>
+
+
+</body>
+
+</html>

@@ -60,22 +60,6 @@ $(document).ready(function() {
     });
 
 
-
-    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
-          Preloader Activation
-    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
-
-    $(window).load(function() {
-        setTimeout(function() {
-            $("#loading").fadeOut(500);
-        }, 1000);
-        setTimeout(function() {
-            $("#loading").remove();
-        }, 2000);
-    });
-
-
-
     /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
           Landing 11 Testimonial Slider
       <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/

@@ -1,5 +1,6 @@
 /* MEDIA QUERIES*/
 
+
 /*=============================================================================================*/
 
 @media screen and (min-width:321px) and (max-width:379px) {
@@ -77,76 +78,69 @@
     }
 }
 
-@media screen and (max-width: 560px){
-    .hero-area-l-14{
+@media screen and (max-width: 560px) {
+    .hero-area-l-14 {
         padding-bottom: 10%;
     }
-    .hero-area-l-14 .content h1{
+    .hero-area-l-14 .content h1 {
         font-size: 10vw;
         text-align: center;
     }
-
-    .hero-area-l-14 .content p{
+    .hero-area-l-14 .content p {
         font-size: 6vw;
         text-align: center;
     }
-
-    .hero-area-l-14 .content .btn{
+    .hero-area-l-14 .content .btn {
         font-size: 5vw;
         min-width: 20vw;
         height: 12vw;
         margin-left: 33%;
         margin-top: 0;
     }
-
     .features-section {
         border-radius: 0;
         padding-top: 10%;
         margin-top: 0;
     }
-    .features{
+    .features {
         width: 100%;
         padding-top: 0;
     }
-
-    .features h4{
+    .features h4 {
         font-size: 5vw;
     }
-
-    .icon-head{
+    .icon-head {
         height: 11vw;
         width: 11vw;
     }
-    .wwd h3{
+    .wwd h3 {
         font-size: 4vw;
     }
-    .icon-head i{
+    .icon-head i {
         font-size: 5vw;
     }
     .wwd_option p {
         font-size: 4vw;
     }
-    .price_heading{
+    .price_heading {
         font-size: 8vw;
     }
-    .subheading{
+    .subheading {
         margin-bottom: 5%;
         margin-left: 0;
         margin-right: 0;
-        font-size: 3vw;
-        
+        font-size: 4.1vw;
     }
-    .flex_cont{
+    .flex_cont {
         padding: 0 0;
     }
-
-    .wwd{
+    .wwd {
         margin-bottom: 0;
     }
-    .wwd-cont{
+    .wwd-cont {
         padding-top: 0;
     }
-    .card .card-title{
+    .card .card-title {
         margin-bottom: 0;
     }
     .card .card-title {
@@ -158,24 +152,22 @@
     .timeline__event__content {
         height: 31vw;
     }
-    .section-heading-5 h2{
+    .section-heading-5 h2 {
         font-size: 8vw;
         margin-bottom: 0;
         margin-top: 0;
     }
-    .section-heading-5 p{
+    .section-heading-5 p {
         font-size: 5vw;
         line-height: 8vw;
     }
-    .feature-l-11{
+    .feature-l-11 {
         padding-top: 5%;
     }
-
-    .modal-btn{
+    .modal-btn {
         text-align: center;
         margin-bottom: 5%;
-    }      
-
+    }
     .copyright-area-l-11 {
         height: 80vw;
     }
@@ -188,8 +180,7 @@
     .modal-btn {
         margin-bottom: 5%;
     }
-
-    .newsletter-l-11 .news-l-11-main-bg{
+    .newsletter-l-11 .news-l-11-main-bg {
         width: 90%;
         margin-left: auto;
         margin-right: auto;
@@ -201,7 +192,7 @@
         font-size: 4vw;
         letter-spacing: 4px;
     }
-    .newsletter-l-11 .content h5{
+    .newsletter-l-11 .content h5 {
         font-size: 3vw;
         margin-bottom: 0;
     }
@@ -231,7 +222,7 @@
         border-radius: 6px;
         margin-top: 0;
     }
-    .newsletter-l-11 .content span{
+    .newsletter-l-11 .content span {
         font-size: 3vw;
         margin-top: 2%;
         line-height: 10px;
@@ -239,16 +230,74 @@
     .card-container {
         padding-bottom: 15%;
     }
-    .thumbnail{
+    .light-version-logo {
+        width: 32vw;
+        height: 100%;
+    }
+    .work-head h3 {
+        font-size: 22px;
+    }
+}
+
+
+/*=========================================================================================*/
+
+@media screen and (max-width:560px) {
+    .thumbnail {
         width: 100%;
         height: 100%;
         margin: 5% 0 !important;
         padding-bottom: 10%;
     }
-    .light-version-logo{
-        width: 25vw;
-        height: 100%;
+    #credit-card-text {
+        font-size: 2.3vw;
     }
-    
+    #Terms-and-conditions-text {
+        font-size: 1.8vw;
+    }
 }
-/*=========================================================================================*/
+
+@media screen and (min-width: 561px) and (max-width:766px) {
+    .thumbnail {
+        width: 100%;
+        height: 100%;
+        margin: 5% 0 !important;
+        padding-bottom: 10%;
+    }
+    #credit-card-text {
+        font-size: 1.6vw;
+    }
+    #Terms-and-conditions-text {
+        font-size: 1.2vw;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width:1000px) {
+    .thumbnail {
+        width: 96%;
+        height: 66vw;
+        margin: 0 0 !important;
+        padding-bottom: 10%;
+    }
+    #credit-card-text {
+        font-size: 1.4vw;
+    }
+    #Terms-and-conditions-text {
+        font-size: 1.1vw;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .thumbnail {
+        width: 95%;
+        height: 100%;
+        margin: 5% 0 !important;
+        padding-bottom: 10%;
+    }
+    #credit-card-text {
+        font-size: 1.3vw;
+    }
+    #Terms-and-conditions-text {
+        font-size: 1vw;
+    }
+}
